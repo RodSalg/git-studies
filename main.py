@@ -1,7 +1,7 @@
 def hello_world():
     print("hello world")
 
-def sum(first_number: float, second_number: float) -> None:
+def sum_two_numbers(first_number: float, second_number: float) -> None:
     print(f"the sum of {first_number} + {second_number} is {first_number + second_number}")
 
 def multiplication_two_numbers(first_number: float, second_number: float) -> None:
@@ -9,7 +9,7 @@ def multiplication_two_numbers(first_number: float, second_number: float) -> Non
 
 def main():
     hello_world()
-    sum(1, 5)
+    sum_two_numbers(1, 5)
     multiplication_two_numbers(2, 10)
 
 if __name__ == "__main__":
