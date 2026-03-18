@@ -2,9 +2,11 @@ def hello_world():
     print("hello world")
 
 def sum_two_numbers(first_number: float, second_number: float) -> None:
+    ''' sum two numbers'''
     print(f"the sum of {first_number} + {second_number} is {first_number + second_number}")
 
 def multiplication_two_numbers(first_number: float, second_number: float) -> None:
+    ''' Multiply two numbers'''
     print(f"the product of {first_number} times {second_number} is {first_number * second_number}")
 
 def main():
